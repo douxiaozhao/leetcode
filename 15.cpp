@@ -10,8 +10,8 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:   (), 
- *   Organization:  
+ *         Author:   (),
+ *   Organization:
  *
  * =====================================================================================
  */
@@ -26,14 +26,14 @@ void print( vector< vector<int> > &ret)
     for(vector< vector<int> >::iterator it = ret.begin(); it != ret.end(); ++it)
 	{
 		vector<int> tmp = *it;
-	    cout << tmp[0] << " " << tmp[1] << " " << tmp[2] << endl;	
+	    cout << tmp[0] << " " << tmp[1] << " " << tmp[2] << endl;
 	}
 }
 
 vector< vector<int> > threeSum(vector<int> &num)
 {
     vector< vector<int> > ret;
-    
+
 	// 先对num 进行排序
 	sort(num.begin(), num.end());
 	int len = num.size();
@@ -70,7 +70,7 @@ vector< vector<int> > threeSum(vector<int> &num)
 				--r;
 		}
 	}
-    print(ret);	
+    print(ret);
 	return ret;
 }
 
