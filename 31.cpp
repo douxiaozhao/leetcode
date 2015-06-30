@@ -27,7 +27,7 @@ void nextPermutation(vector<int>& nums)
         }
     }while(left != nums.begin());
 
-    sort(nums.begin(), nums.end());
+    reverse(nums.begin(), nums.end());
 }
 
 
