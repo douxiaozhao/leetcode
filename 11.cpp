@@ -10,8 +10,8 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:   (), 
- *   Organization:  
+ *         Author:   (),
+ *   Organization:
  *
  * =====================================================================================
  */

@@ -3,15 +3,15 @@
  *
  *       Filename:  12.cpp
  *
- *    Description: Integer to Roman  
+ *    Description: Integer to Roman
  *
  *        Version:  1.0
  *        Created:  01/25/15 17:38:54
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:   (), 
- *   Organization:  
+ *         Author:   (),
+ *   Organization:
  *
  * =====================================================================================
  */
